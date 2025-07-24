@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team-Nashorns</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+     <!-- Header -->
+     <div class="header">
+        <div class="logo">
+            <img src="/images/navbar/nashorns logo.png" class="logo-img" alt="Team Nashorns Logo">
+            <div class="logo-text">Team<span>Nashorns</span></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="login.html">Home</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <!-- Card Slider Section -->
+    <section class="Section-1">
+        <div class="slider-arrow left" onclick="moveSlide(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+
+        <div id="main">
+            <!-- Card 1 -->
+            <div id="card1" class="card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h2>Our <span>Mission</span></h2>
+                        <p>Team Nashorns is dedicated to pushing the boundaries of innovation in electric vehicle technology. We compete to win while promoting sustainable transportation solutions.</p>
+                        <a href="#" class="card-btn">Learn More</a>
+                    </div>
+                    <div class="card-img">
+                        <img src="/images/navbar/newmain.png" alt="Team Mission">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div id="card2" class="card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h2>Our <span>Team</span></h2>
+                        <p>Comprised of talented engineers, designers, and racing enthusiasts, our team brings diverse skills together to create high-performance electric vehicles.</p>
+                        <a href="#" class="card-btn">Meet the Team</a>
+                    </div>
+                    <div class="card-img">
+                        <img src="https://teamnashorns.in/buggyimg/third.png" alt="Team Members">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div id="card3" class="card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h2>Our <span>Technology</span></h2>
+                        <p>Featuring cutting-edge battery systems, regenerative braking, and lightweight materials, our vehicles represent the pinnacle of EV racing technology.</p>
+                        <a href="#" class="card-btn">View Tech Specs</a>
+                    </div>
+                    <div class="card-img">
+                        <img src="https://teamnashorns.in/buggyimg/fourth.jpg" alt="Vehicle Technology">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div id="card4" class="card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h2>Our <span>Achievements</span></h2>
+                        <p>With multiple championship wins and innovation awards, Team Nashorns has established itself as a leader in electric vehicle competitions worldwide.</p>
+                        <a href="#" class="card-btn">See Awards</a>
+                    </div>
+                    <div class="card-img">
+                        <img src="https://teamnashorns.in/buggyimg/eight.png" alt="Team Achievements">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-arrow right" onclick="moveSlide(1)">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        
+        <div class="slider-nav">
+            <div class="slider-dot active" onclick="goToSlide(0)"></div>
+            <div class="slider-dot" onclick="goToSlide(1)"></div>
+            <div class="slider-dot" onclick="goToSlide(2)"></div>
+            <div class="slider-dot" onclick="goToSlide(3)"></div>
+        </div>
+    </section>
+
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-title">
+            <h2>Why Choose Electric?</h2>
+            <p>Electric vehicles offer numerous benefits over traditional combustion engines. Here's why you should make the switch.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Eco Friendly</h3>
+                <p>Zero emissions mean cleaner air and a healthier planet for future generations.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Instant Torque</h3>
+                <p>Experience lightning-fast acceleration with immediate power delivery.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-charging-station"></i>
+                </div>
+                <h3>Low Maintenance</h3>
+                <p>Fewer moving parts mean lower maintenance costs and fewer repairs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <h3>Cost Efficient</h3>
+                <p>Save money on fuel and benefit from government incentives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicle Showcase -->
+    <section class="showcase">
+        <div class="section-title">
+            <h2>Our Lineup</h2>
+            <p>Explore our range of high-performance vehicles designed for tough terrains.</p>
+        </div>
+        <div class="vehicle-grid">
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="/images/home/2023-24.png" alt="ElectroDrive Sedan">
+                </div>
+                <div class="vehicle-info">
+                    <h3>2023-24 Global Recognition</h3>
+                    <div class="vehicle-price">Earning recognition on an international level for our extraordinary achievements.
+                        Overall All India Rank 3 in SAE BAJA 2024!!!</div>
+                    <button class="cta-button">Configure</button>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="/images/home/2022-23.jpg" alt="ElectroDrive SUV">
+                </div>
+                <div class="vehicle-info">
+                    <h3>2022-23 Inspiring Future Generations</h3>
+                    <div class="vehicle-price">Inspiring and mentoring future leaders to carry the torch of excellence forward.
+                        ALL INDIA RANK 1 IN Aravalli Terrain Vehicle Championship (ATVC 2023)!!!</div>
+                    <button class="cta-button">Configure</button>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="/images/home/2021-22.png" alt="ElectroDrive Sport">
+                </div>
+                <div class="vehicle-info">
+                    <h3>2022-23 Breaking New Ground</h3>
+                    <div class="vehicle-price">Pushing the boundaries of innovation and setting new industry standards.
+                        Secured overall AIR 11 in SAE BAJA 2023!!!
+                        </div>
+                    <button class="cta-button">Configure</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <div class="footer-grid">
+        <div class="footer-column">
+            <h3>About ElectroDrive</h3>
+            <p>Leading the electric vehicle revolution with innovative technology and sustainable transportation solutions.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+                <li><a href="login.html">Home</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Support</h3>
+            <ul class="footer-links">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i>  PCCOER,Ravet,Pune 412101</p>
+            <p><i class="fas fa-phone"></i> +91 74474 37430
+              ,  +91 88579 97512</p>
+            <p><i class="fas fa-envelope"></i> nashorns.pccoer@gmail.com</p>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Team Nashorns. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+
+    <script src="script/home.js"></script>
+</body>
+</html>
